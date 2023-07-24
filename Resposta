@@ -1,0 +1,9 @@
+function solucao(primeiraLetra, segundaLetra, palavras) {
+	//seu codigo aqui
+
+}
+
+function processData(input) {
+    const { primeiraLetra, segundaLetra, palavras } = JSON.parse(input);
+    solucao(primeiraLetra, segundaLetra, palavras);
+} 
